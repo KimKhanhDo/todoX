@@ -1,0 +1,33 @@
+// {
+//     "compilerOptions": {
+//         "baseUrl": "./src",
+//         "paths": {
+//             "@/*": ["*"]
+//         },
+//         "jsx": "react-jsx"
+//     },
+//     "include": ["src"]
+// }
+
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["src/*"],
+            "@/components/*": ["src/components/*"]
+            // "@/styles/*": ["src/styles/*"],
+            // "@/router/*": ["src/router/*"],
+            // "@/layouts/*": ["src/layouts/*"],
+            // "@/pages/*": ["src/pages/*"],
+            // "@/assets/*": ["src/assets/*"],
+            // "@/libs/*": ["src/libs/*"],
+            // "@/hooks/*": ["src/hooks/*"],
+            // "@/context/*": ["src/context/*"],
+            // "@/redux/*": ["src/redux/*"],
+            // "@/services/*": ["src/services/*"],
+            // "@/utils/*": ["src/utils/*"],
+            // "@/locales/*": ["src/locales/*"],
+            // "@/store/*": ["src/store/*"]
+        }
+    }
+}
