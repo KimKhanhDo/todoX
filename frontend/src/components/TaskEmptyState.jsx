@@ -19,7 +19,7 @@ function TaskEmptyState({ filter }) {
                     <p className="text-sm text-muted-foreground">
                         {filter === 'all'
                             ? 'Add your first task to get started!'
-                            : `Switch to "all" to see ${
+                            : `Switch to "All" to see ${
                                   filter === 'active'
                                       ? 'completed tasks.'
                                       : 'active tasks.'

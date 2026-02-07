@@ -1,4 +1,4 @@
-function Footer({ completedTasksCount = 0, activeTasksCount = 2 }) {
+function Footer({ completedTasksCount = 0, activeTasksCount = 0 }) {
     return (
         <>
             {completedTasksCount + activeTasksCount > 0 && (
